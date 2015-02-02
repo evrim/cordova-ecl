@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="org.lisp.ecl" version="0.0.1">
   <name>CordovaEcl</name>
+  <description>Cordova Embedded Common Lisp Plugin</description>
+  <keywords>common lisp, cordova, embedded common lisp</keywords>
   <js-module name="ecl" src="www/ecl.js">
-    <clobbers target="ecl"/>
+    <clobbers target="lisp"/>
   </js-module>
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
