@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="org.lisp.ecl" version="0.0.1">
-  <name>cordova-ecl</name>
-  <js-module name="cordova-ecl" src="www/cordova-ecl.js">
-    <clobbers target="cordova.plugins.cordova-ecl"/>
+  <name>CordovaEcl</name>
+  <js-module name="CordovaEcl" src="www/CordovaEcl.js">
+    <clobbers target="cordova.plugins.CordovaEcl"/>
   </js-module>
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
-      <feature name="cordova-ecl">
-        <param name="android-package" value="org.lisp.ecl.cordova-ecl"/>
+      <feature name="CordovaEcl">
+        <param name="android-package" value="org.lisp.ecl.CordovaEcl"/>
       </feature>
     </config-file>
     <config-file parent="/*" target="AndroidManifest.xml"/>
-    <source-file src="src/android/cordova-ecl.java" target-dir="src/org/lisp/ecl/cordova-ecl"/>
+    <source-file src="src/android/CordovaEcl.java" target-dir="src/org/lisp/ecl/CordovaEcl"/>
   </platform>
 </plugin>

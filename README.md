@@ -1,2 +1,2 @@
-# cordova-ecl
+# CordovaEcl
 Cordova Embedded Common Lisp Plugin
